@@ -1,6 +1,6 @@
 # The Web-Page Project for GGG
 
-Plantilla brutalista (nivel hackers) para GGG — Gutsy Glitch Greppers HQ.
+Plantilla para GGG — Gutsy Glitch Greppers HQ.
 
 Archivos añadidos:
 
