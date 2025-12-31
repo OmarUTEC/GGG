@@ -5,7 +5,7 @@ Plantilla brutalista (nivel hackers) para GGG — Gutsy Glitch Greppers HQ.
 Archivos añadidos:
 
 - [index.html](index.html) — página estática principal.
-- [styles.css](styles.css) — estilos con estética brutalista y efectos "glitch".
+- [styles.css](styles.css) — estilos.
 - [assets/logo.svg](assets/logo.svg) — logo simple en SVG.
 
 Cómo ver la página localmente:
