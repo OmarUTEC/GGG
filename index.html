@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GGG — Gutsy Glitch Greppers HQ</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="GGG — equipos y recursos para CTFs. Brutalist hacker template." />
+</head>
+<body>
+  <header class="site-header">
+    <img src="assets/logo.svg" alt="GGG logo" class="logo">
+    <nav class="nav">
+      <a href="#about">Acerca</a>
+      <a href="#teams">Equipos</a>
+      <a href="#ctfs">CTFs</a>
+      <a href="#resources">Recursos</a>
+      <a href="mailto:contacto@ggg.hq" class="cta">Unirse</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="glitch" data-text="Gutsy Glitch Greppers HQ">Gutsy Glitch Greppers HQ</h1>
+      <p class="lead">Competencias CTF — entrenamiento, equipo y gloria.</p>
+      <div class="actions">
+        <a href="#ctfs" class="btn">Próximos CTFs</a>
+        <a href="#resources" class="btn ghost">Recursos</a>
+      </div>
+      <pre class="terminal" aria-hidden="true">$ ./ggg --ready
+> scanning targets... ok
+> flag-hunter mode: ON</pre>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>Acerca</h2>
+      <p>GGG es una organización dedicada a formar y reunir a jugadores de CTF. Compartimos writeups, retos de práctica y organizamos scrims.</p>
+    </section>
+
+    <section id="teams" class="panel split">
+      <div>
+        <h3>Equipos</h3>
+        <ul>
+          <li>Red Team — Reverse & Exploit</li>
+          <li>Blue Team — Forense & Networking</li>
+          <li>Green Team — Web & Crypto</li>
+        </ul>
+      </div>
+      <div>
+        <h3>¿Quieres unirte?</h3>
+        <p>Envíanos un correo o únete al canal de Discord para pruebas y scrims.</p>
+      </div>
+    </section>
+
+    <section id="ctfs" class="panel">
+      <h2>Próximos CTFs</h2>
+      <ol>
+        <li>CyberLlama CTF — 2026-01-15</li>
+        <li>Nighthack Open — 2026-02-08</li>
+      </ol>
+    </section>
+
+    <section id="resources" class="panel">
+      <h2>Recursos</h2>
+      <ul>
+        <li><a href="#">Repositorio de retos</a></li>
+        <li><a href="#">Writeups y guías</a></li>
+        <li><a href="#">Canal de scrims</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© GGG — Gutsy Glitch Greppers HQ — Hecho para CTFs</small>
+  </footer>
+
+  <script>
+    // Subtle neon flicker for hero
+    const title = document.querySelector('.glitch');
+    if (title) {
+      setInterval(()=>{
+        title.style.opacity = (Math.random() > 0.9) ? '0.85' : '1';
+      }, 180);
+    }
+  </script>
+</body>
+</html>
